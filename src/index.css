@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Danfo&family=Roboto+Mono&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bgDark {
+  background: rgb(0, 30, 25);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(0, 30, 25, 1) 0%,
+    rgba(15, 0, 40, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(0, 30, 25, 1) 0%,
+    rgba(15, 0, 40, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(0, 30, 25, 1) 0%,
+    rgba(15, 0, 40, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001e19",endColorstr="#0f0028",GradientType=1);
+  border: 1px solid rgb(0, 56, 80);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
