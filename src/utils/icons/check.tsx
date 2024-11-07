@@ -1,5 +1,4 @@
-import * as React from "react";
-import { SVGProps } from "react";
+import { SVGProps } from "react"
 const IconCheck = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,6 +15,6 @@ const IconCheck = (props: SVGProps<SVGSVGElement>) => (
       d="m4.5 12.75 6 6 9-13.5"
     />
   </svg>
-);
+)
 
-export default IconCheck;
+export default IconCheck

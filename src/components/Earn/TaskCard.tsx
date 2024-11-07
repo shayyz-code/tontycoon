@@ -1,9 +1,9 @@
-import { TTask } from "@/context/ContextEarn";
-import PrimaryButton from "../PrimaryButton";
+import { TTask } from "@context/ContextEarn"
+import PrimaryButton from "../PrimaryButton"
 
 type TTaskCard = {
-  task: TTask;
-};
+  task: TTask
+}
 
 export default function TaskCard({ task }: TTaskCard) {
   return (
@@ -19,5 +19,5 @@ export default function TaskCard({ task }: TTaskCard) {
         </div>
       </div>
     </div>
-  );
+  )
 }

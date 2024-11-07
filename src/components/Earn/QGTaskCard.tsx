@@ -1,9 +1,9 @@
-import { TQGTask } from "@/context/ContextEarn";
-import PrimaryButton from "../PrimaryButton";
+import { TQGTask } from "@context/ContextEarn"
+import PrimaryButton from "../PrimaryButton"
 
 type TTaskCard = {
-  task: TQGTask;
-};
+  task: TQGTask
+}
 
 export default function QGTaskCard({ task }: TTaskCard) {
   return (
@@ -19,5 +19,5 @@ export default function QGTaskCard({ task }: TTaskCard) {
         </div>
       </div>
     </div>
-  );
+  )
 }

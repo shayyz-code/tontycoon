@@ -1,5 +1,4 @@
-import * as React from "react";
-import { SVGProps } from "react";
+import { SVGProps } from "react"
 const IconClipboardSolid = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,6 +13,6 @@ const IconClipboardSolid = (props: SVGProps<SVGSVGElement>) => (
       clipRule="evenodd"
     />
   </svg>
-);
+)
 
-export default IconClipboardSolid;
+export default IconClipboardSolid
